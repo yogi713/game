@@ -35,8 +35,8 @@ else{
 calculateScore(result);
 document.querySelector('.js-moves').innerHTML = 
 `You 
-<img class="move-icon" src="/images/${playerMove}-emoji.png"   alt="playerMove">
-<img class="move-icon" src="/images/${computerMove}-emoji.png" alt="computerMove">
+<img class="move-icon" src="/images/${playerMove}.png"   alt="playerMove">
+<img class="move-icon" src="/images/${computerMove}.png" alt="computerMove">
 Computer`;
 }
 
