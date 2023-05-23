@@ -63,17 +63,17 @@
     <div class="div-2">
       <button class="move-button" onclick="
         playGame('rock');
-        "><img class="move-icon" src="/images/rock-emoji.png" alt="rock">
+        "><img class="move-icon" src="/rock-emoji.png" alt="rock">
       </button>
 
       <button class="move-button" onclick="
         playGame('paper');
-        "><img class="move-icon" src="/images/paper-emoji.png" alt="rock">
+        "><img class="move-icon" src="/paper-emoji.png" alt="rock">
       </button>
 
       <button class="move-button" onclick="
         playGame('scissors');
-        "><img class="move-icon" src="/images/scissors-emoji.png" alt="rock">
+        "><img class="move-icon" src="/scissors-emoji.png" alt="rock">
       </button>
     </div>
 
@@ -130,8 +130,8 @@ else{
 calculateScore(result);
 document.querySelector('.js-moves').innerHTML = 
 `You 
-<img class="move-icon" src="/images/${playerMove}-emoji.png"   alt="playerMove">
-<img class="move-icon" src="/images/${computerMove}-emoji.png" alt="computerMove">
+<img class="move-icon" src="/${playerMove}-emoji.png"   alt="playerMove">
+<img class="move-icon" src="/${computerMove}-emoji.png" alt="computerMove">
 Computer`;
 }
 
